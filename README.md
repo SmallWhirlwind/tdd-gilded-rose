@@ -27,5 +27,19 @@
 	- 演出前5天，价值每天上升3点
 	- 一旦过了演出日，价值就马上变成0
 
-
-
+1. Given CommonProduct,  SellIn为1, Quality为40, When 过了一天, Then SellIn为0, Quality为39  
+2. Given CommonProduct,  SellIn为0,  Quality为40, When 过了一天, Then SellIn为-1, Quality为38  
+3. Given CommonProduct,  SellIn为-1, Quality为40, When 过了一天, Then SellIn为-2, Quality为38
+---
+1. Given Aged Brie,      SellIn为30, Quality为40, When 过了一天, Then SellIn为29, Quality为41
+2. Given Aged Brie,      SellIn为30, Quality为50, When 过了一天, Then SellIn为29, Quality为50
+---
+1. Given Sulfuras,                   Quality为40, When 过了一天,                 Quality为40
+---
+1. Given Backstage Pass, SellIn为11, Quality为20, When 过了一天, Then SellIn 为10, Quality为21
+2. Given Backstage Pass, SellIn为11, Quality为50, When 过了一天, Then SellIn 为10, Quality为50
+3. Given Backstage Pass, SellIn为10, Quality为20, When 过了一天, Then SellIn 为9,  Quality为22
+4. Given Backstage Pass, SellIn为6,  Quality为20, When 过了一天, Then SellIn 为5,  Quality为22
+5. Given Backstage Pass, SellIn为5,  Quality为20, When 过了一天, Then SellIn 为4,  Quality为23
+6. Given Backstage Pass, SellIn为1,  Quality为20, When 过了一天, Then SellIn 为0,  Quality为23
+7. Given Backstage Pass, SellIn为0,  Quality为20, When 过了一天, Then SellIn 为-1, Quality为0
