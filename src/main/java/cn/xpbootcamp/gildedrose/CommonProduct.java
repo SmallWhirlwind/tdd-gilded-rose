@@ -20,7 +20,7 @@ public class CommonProduct {
     public void passOneDay() {
         this.sellIn -= 1;
 
-        if (this.sellIn == -1) {
+        if (this.sellIn < 0) {
             this.quality -= 2;
         } else {
             this.quality -= 1;
