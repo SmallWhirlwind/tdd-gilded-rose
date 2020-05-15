@@ -39,7 +39,7 @@
 1. Given Backstage Pass, SellIn为11, Quality为20, When 过了一天, Then SellIn 为10, Quality为21
 2. Given Backstage Pass, SellIn为11, Quality为50, When 过了一天, Then SellIn 为10, Quality为50
 3. Given Backstage Pass, SellIn为10, Quality为20, When 过了一天, Then SellIn 为9,  Quality为22
-4. Given Backstage Pass, SellIn为6,  Quality为20, When 过了一天, Then SellIn 为5,  Quality为22
+4. Given Backstage Pass, SellIn为6,  Quality为49, When 过了一天, Then SellIn 为5,  Quality为50
 5. Given Backstage Pass, SellIn为5,  Quality为20, When 过了一天, Then SellIn 为4,  Quality为23
 6. Given Backstage Pass, SellIn为1,  Quality为20, When 过了一天, Then SellIn 为0,  Quality为23
 7. Given Backstage Pass, SellIn为0,  Quality为20, When 过了一天, Then SellIn 为-1, Quality为0
