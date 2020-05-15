@@ -45,4 +45,14 @@ public class BackstagePassTest {
         assertThat(backstagePass.getSellIn()).isEqualTo(5);
         assertThat(backstagePass.getQuality()).isEqualTo(50);
     }
+
+    @Test
+    void should_SellIn_4_Quality_23_when_BackstagePass_pass_one_day_given_SellIn_5_Quality_20() {
+        BackstagePass backstagePass = new BackstagePass(5, 20);
+
+        backstagePass.passOneDay();
+
+        assertThat(backstagePass.getSellIn()).isEqualTo(4);
+        assertThat(backstagePass.getQuality()).isEqualTo(23);
+    }
 }
