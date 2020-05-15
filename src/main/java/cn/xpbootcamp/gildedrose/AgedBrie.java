@@ -1,6 +1,6 @@
 package cn.xpbootcamp.gildedrose;
 
-public class AgedBrie {
+public class AgedBrie implements TimeConsumption {
     private int sellIn;
     private int quality;
 

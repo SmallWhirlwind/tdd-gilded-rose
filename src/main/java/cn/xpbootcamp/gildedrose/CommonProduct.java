@@ -1,6 +1,6 @@
 package cn.xpbootcamp.gildedrose;
 
-public class CommonProduct {
+public class CommonProduct implements TimeConsumption {
     private int sellIn;
     private int quality;
 

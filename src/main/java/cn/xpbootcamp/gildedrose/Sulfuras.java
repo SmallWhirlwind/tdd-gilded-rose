@@ -1,6 +1,6 @@
 package cn.xpbootcamp.gildedrose;
 
-public class Sulfuras {
+public class Sulfuras implements TimeConsumption {
     private int quality;
 
     public Sulfuras(int quality) {

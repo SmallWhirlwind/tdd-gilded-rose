@@ -1,6 +1,6 @@
 package cn.xpbootcamp.gildedrose;
 
-public class BackstagePass {
+public class BackstagePass implements TimeConsumption {
     private int sellIn;
     private int quality;
 
